@@ -1,7 +1,10 @@
 import requests
 import oss2
 from io import BytesIO
+from dotenv import load_dotenv
 
+
+load_dotenv()
 import uuid
 
 uuid_str = uuid.uuid4().hex
